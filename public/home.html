@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlogWebsite</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/home.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <img src="/img/logo.png" class="logo" alt="logo">
+        <ul class="link-containers">
+            <li class="link-item"><a href="/" class="link">home</a></li>
+            <li class="link-item"> <a href="/editor" class="link">editor</a></li>
+        </ul>
+    </nav>
+    <header class="header">
+        <div class="content">
+            <h1 class="heading">
+                <span class="small">welcome in the world of </span>blog
+                <span class="no-fill">writing</span>
+            </h1>
+            <a href="/editor" class="btn" style=" background-color: white;">Write a blog </a>
+        </div>
+    </header>
+    <section class="blogs-section">
+        <!-- <div class="blog-card">
+            <img src="/img/istockphoto-669552054-612x612.jpg" alt="BlogImage1" class="blog-image">
+            <h1 class="blog-title">Lorem, ipsum dolor sit amet consectetur</h1>
+            <p class="blog-overview">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, ratione, soluta
+                autem labore dolorem eum ab facere hic ipsa eos sed et. Ut perferendis ipsum quisquam libero eveniet
+                voluptatum beatae exercitationem, sequi nisi fugit reprehenderit quam error praesentium nobis fugiat.
+            </p>
+            <a href="/" class="btn dark">Read more</a>
+        </div> -->
+    </section>
+    <script type="module" src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js"></script>
+    <script type="module" src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js"></script>
+
+    <script type="module" src="js/firebase.js"></script>
+    <script type="module" src="js/home.js"></script>
+</body>
+
+</html>
